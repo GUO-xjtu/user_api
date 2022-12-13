@@ -10,5 +10,6 @@ var (
 )
 
 func Init() {
-	UserCli, _ = user.NewClient("xiangqin.user.core", client.WithHostPorts("0.0.0.0:8888"))
+
+	UserCli, _ = user.NewClient("xiangqin.user.core", client.WithHostPorts("10.21.21.9:8888"))
 }
